@@ -16,7 +16,6 @@ package fr.insalyon.creatis.vip.java_client.model;
 import java.util.Objects;
 import com.google.gson.annotations.SerializedName;
 import fr.insalyon.creatis.vip.java_client.model.ParameterType;
-import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 /**

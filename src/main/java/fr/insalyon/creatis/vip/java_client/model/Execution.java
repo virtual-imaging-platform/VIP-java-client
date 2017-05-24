@@ -15,7 +15,6 @@ package fr.insalyon.creatis.vip.java_client.model;
 
 import java.util.Objects;
 import com.google.gson.annotations.SerializedName;
-import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.util.HashMap;
 import java.util.List;
