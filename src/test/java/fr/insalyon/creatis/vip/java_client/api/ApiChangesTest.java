@@ -16,28 +16,26 @@ public class ApiChangesTest {
 	@Test
 	public void inputValueTest() throws Exception{		
 		Method m = Execution.class.getMethod("getInputValues");
-		Class<?> methodClass = m.getReturnType();
-		assertEquals(Map.class, methodClass);
+		Class<?> returnClass = m.getReturnType();
+		assertEquals(Map.class, returnClass);
 	}
 		
 	@Test
-	public void defaultValueTest(){
+	public void defaultValueTest() throws Exception{
 		Field[] pipelineParameterFields = PipelineParameter.class.getDeclaredFields();
-		Method methodGet = null;
 		for (Field field : pipelineParameterFields){
 			if (field.getName().equals("defaultValue")) {
 				Class<?> fieldClass = field.getType();
-				if(Object.class.equals(fieldClass)){
-					try{
-						methodGet = PipelineParameter.class.getMethod("getDefaultValue");
-						PipelineParameter.class.getMethod("setDefaultValue", Object.class);
-					}catch(NoSuchMethodException e){
-						throw new RuntimeException("method \"setDefaultValue\" or/and \"getDefaultValue\"in PipelineParameter class are missing");
-					}
-					Class<?> methodGetClass = methodGet.getReturnType();
-					assertTrue(methodGetClass.equals(Object.class));
-					return;
+				if(!Object.class.equals(fieldClass)){
+					throw new RuntimeException("defaultValue field exists but is not an Object");
 				}
+				Method getMethod = PipelineParameter.class.getMethod("getDefaultValue");
+				Class<?> methodGetClass = getMethod.getReturnType();
+				assertTrue(methodGetClass.equals(Object.class));
+				// To check setDefaultValue(Object) exist 
+				PipelineParameter.class.getMethod("setDefaultValue", Object.class);
+				return;
+				
 			}
 		}
 		throw new RuntimeException("No field named \"defaultValue\" in PipelineParameter class");
