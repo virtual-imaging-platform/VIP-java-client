@@ -10,3 +10,19 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse information
+.classpath
+.project
+.settings/
+
+# Gradle information
+gradle.properties
+gradlew
+gradlew.bat
+build.gradle
+settings.gradle
+
+# Swagger gen stuff
+build.sbt
+git_push.sh
