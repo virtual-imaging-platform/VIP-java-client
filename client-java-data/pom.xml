@@ -170,11 +170,38 @@
 
   <dependencies>
     <dependency>
-      <groupId>fr.insalyon.creatis.vip</groupId>
-      <artifactId>java-client</artifactId>
-      <version>0.3</version>
+      <groupId>io.swagger</groupId>
+      <artifactId>swagger-annotations</artifactId>
+      <version>${swagger-core-version}</version>
     </dependency>
-        <dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>${okhttp-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <version>${okhttp-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>${gson-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>joda-time</groupId>
+      <artifactId>joda-time</artifactId>
+      <version>${jodatime-version}</version>
+    </dependency>
+    <!-- test dependencies -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${junit-version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
 	  <groupId>org.slf4j</groupId>
 	  <artifactId>slf4j-api</artifactId>
 	  <version>1.7.25</version>
@@ -183,7 +210,7 @@
 	  <groupId>ch.qos.logback</groupId>
 	  <artifactId>logback-classic</artifactId>
 	  <version>1.2.2</version>
-	</dependency>
+	</dependency>    
   </dependencies>
   <properties>
     <java.version>1.7</java.version>

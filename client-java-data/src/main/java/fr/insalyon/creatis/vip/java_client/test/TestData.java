@@ -9,7 +9,7 @@ import fr.insalyon.creatis.vip.java_client.model.UploadData;
 
 public class TestData {
 	private static Logger logger = LoggerFactory.getLogger(TestData.class);
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception{
 		// TODO Auto-generated method stub
 		ApiClient testAPiclient = new ApiClient();
 		testAPiclient.setBasePath("http://vip.creatis.insa-lyon.fr:4040/rest-test/rest");

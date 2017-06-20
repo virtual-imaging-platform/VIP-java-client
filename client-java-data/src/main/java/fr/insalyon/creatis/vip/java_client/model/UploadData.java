@@ -21,7 +21,7 @@ import io.swagger.annotations.ApiModelProperty;
 /**
  * UploadData
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-06-19T11:29:02.654+02:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-06-20T14:24:45.761+02:00")
 public class UploadData {
   @SerializedName("uri")
   private String uri = null;
