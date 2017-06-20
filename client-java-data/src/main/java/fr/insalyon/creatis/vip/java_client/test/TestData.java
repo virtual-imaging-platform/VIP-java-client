@@ -3,9 +3,9 @@ package fr.insalyon.creatis.vip.java_client.test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.insalyon.creatis.vip.java_client.ApiClient;
-import fr.insalyon.creatis.vip.java_client.api.DefaultApi;
-import fr.insalyon.creatis.vip.java_client.model.UploadData;
+import fr.insalyon.creatis.vip.java_client.*;
+import fr.insalyon.creatis.vip.java_client.api.*;
+import fr.insalyon.creatis.vip.java_client.model.*;
 
 public class TestData {
 	private static Logger logger = LoggerFactory.getLogger(TestData.class);
