@@ -4,7 +4,7 @@
   
   <parent>
     <groupId>fr.insalyon.creatis.vip</groupId>
-    <artifactId>client-java</artifactId>
+    <artifactId>client-java-parent</artifactId>
     <version>0.3</version>
   </parent>
   
