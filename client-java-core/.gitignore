@@ -1,7 +1,0 @@
-
-target/
-
-# Avoid to add eclipse directories and files
-.project
-.settings/
-.classpath
