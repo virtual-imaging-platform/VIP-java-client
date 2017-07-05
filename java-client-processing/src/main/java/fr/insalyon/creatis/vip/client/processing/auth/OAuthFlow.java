@@ -11,7 +11,7 @@
  */
 
 
-package fr.insalyon.creatis.vip.java_client_processing.auth;
+package fr.insalyon.creatis.vip.client.processing.auth;
 
 public enum OAuthFlow {
     accessCode, implicit, password, application

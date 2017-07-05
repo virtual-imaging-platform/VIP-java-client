@@ -11,27 +11,27 @@
  */
 
 
-package fr.insalyon.creatis.vip.java_client_processing.api;
+package fr.insalyon.creatis.vip.client.processing.api;
 
-import fr.insalyon.creatis.vip.java_client_processing.ApiCallback;
-import fr.insalyon.creatis.vip.java_client_processing.ApiClient;
-import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-import fr.insalyon.creatis.vip.java_client_processing.ApiResponse;
-import fr.insalyon.creatis.vip.java_client_processing.Configuration;
-import fr.insalyon.creatis.vip.java_client_processing.Pair;
-import fr.insalyon.creatis.vip.java_client_processing.ProgressRequestBody;
-import fr.insalyon.creatis.vip.java_client_processing.ProgressResponseBody;
+import fr.insalyon.creatis.vip.client.processing.ApiCallback;
+import fr.insalyon.creatis.vip.client.processing.ApiClient;
+import fr.insalyon.creatis.vip.client.processing.ApiException;
+import fr.insalyon.creatis.vip.client.processing.ApiResponse;
+import fr.insalyon.creatis.vip.client.processing.Configuration;
+import fr.insalyon.creatis.vip.client.processing.Pair;
+import fr.insalyon.creatis.vip.client.processing.ProgressRequestBody;
+import fr.insalyon.creatis.vip.client.processing.ProgressResponseBody;
 
 import com.google.gson.reflect.TypeToken;
 
 import java.io.IOException;
 
 
-import fr.insalyon.creatis.vip.java_client_processing.model.DeleteExecutionConfiguration;
-import fr.insalyon.creatis.vip.java_client_processing.model.ErrorCodeAndMessage;
-import fr.insalyon.creatis.vip.java_client_processing.model.Execution;
-import fr.insalyon.creatis.vip.java_client_processing.model.Pipeline;
-import fr.insalyon.creatis.vip.java_client_processing.model.PlatformProperties;
+import fr.insalyon.creatis.vip.client.processing.model.DeleteExecutionConfiguration;
+import fr.insalyon.creatis.vip.client.processing.model.ErrorCodeAndMessage;
+import fr.insalyon.creatis.vip.client.processing.model.Execution;
+import fr.insalyon.creatis.vip.client.processing.model.Pipeline;
+import fr.insalyon.creatis.vip.client.processing.model.PlatformProperties;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;

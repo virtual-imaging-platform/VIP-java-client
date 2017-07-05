@@ -11,14 +11,14 @@
  */
 
 
-package fr.insalyon.creatis.vip.java_client_processing.api;
+package fr.insalyon.creatis.vip.client.processing.api;
 
-import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-import fr.insalyon.creatis.vip.java_client_processing.model.DeleteExecutionConfiguration;
-import fr.insalyon.creatis.vip.java_client_processing.model.ErrorCodeAndMessage;
-import fr.insalyon.creatis.vip.java_client_processing.model.Execution;
-import fr.insalyon.creatis.vip.java_client_processing.model.Pipeline;
-import fr.insalyon.creatis.vip.java_client_processing.model.PlatformProperties;
+import fr.insalyon.creatis.vip.client.processing.ApiException;
+import fr.insalyon.creatis.vip.client.processing.model.DeleteExecutionConfiguration;
+import fr.insalyon.creatis.vip.client.processing.model.ErrorCodeAndMessage;
+import fr.insalyon.creatis.vip.client.processing.model.Execution;
+import fr.insalyon.creatis.vip.client.processing.model.Pipeline;
+import fr.insalyon.creatis.vip.client.processing.model.PlatformProperties;
 import org.junit.Test;
 import org.junit.Ignore;
 

@@ -11,7 +11,7 @@
  */
 
 
-package fr.insalyon.creatis.vip.java_client_processing;
+package fr.insalyon.creatis.vip.client.processing;
 
 import com.squareup.okhttp.Call;
 import com.squareup.okhttp.Callback;
@@ -74,10 +74,10 @@ import javax.net.ssl.X509TrustManager;
 import okio.BufferedSink;
 import okio.Okio;
 
-import fr.insalyon.creatis.vip.java_client_processing.auth.Authentication;
-import fr.insalyon.creatis.vip.java_client_processing.auth.HttpBasicAuth;
-import fr.insalyon.creatis.vip.java_client_processing.auth.ApiKeyAuth;
-import fr.insalyon.creatis.vip.java_client_processing.auth.OAuth;
+import fr.insalyon.creatis.vip.client.processing.auth.Authentication;
+import fr.insalyon.creatis.vip.client.processing.auth.HttpBasicAuth;
+import fr.insalyon.creatis.vip.client.processing.auth.ApiKeyAuth;
+import fr.insalyon.creatis.vip.client.processing.auth.OAuth;
 
 public class ApiClient {
     public static final double JAVA_VERSION;

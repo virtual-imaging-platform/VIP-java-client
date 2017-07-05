@@ -11,7 +11,7 @@
  */
 
 
-package fr.insalyon.creatis.vip.java_client_processing;
+package fr.insalyon.creatis.vip.client.processing;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

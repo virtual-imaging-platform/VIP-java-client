@@ -11,7 +11,7 @@
  */
 
 
-package fr.insalyon.creatis.vip.java_client_processing.model;
+package fr.insalyon.creatis.vip.client.processing.model;
 
 import java.util.Objects;
 import com.google.gson.annotations.SerializedName;

@@ -11,9 +11,9 @@
  */
 
 
-package fr.insalyon.creatis.vip.java_client_processing;
+package fr.insalyon.creatis.vip.client.processing;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-06-21T16:02:35.739+02:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-07-05T11:29:38.958+02:00")
 public class Pair {
     private String name = "";
     private String value = "";

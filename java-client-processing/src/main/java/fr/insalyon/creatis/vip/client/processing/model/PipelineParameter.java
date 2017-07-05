@@ -11,18 +11,18 @@
  */
 
 
-package fr.insalyon.creatis.vip.java_client_processing.model;
+package fr.insalyon.creatis.vip.client.processing.model;
 
 import java.util.Objects;
 import com.google.gson.annotations.SerializedName;
-import fr.insalyon.creatis.vip.java_client_processing.model.ParameterType;
+import fr.insalyon.creatis.vip.client.processing.model.ParameterType;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
  * PipelineParameter
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-06-21T16:02:35.739+02:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-07-05T11:29:38.958+02:00")
 public class PipelineParameter {
   @SerializedName("name")
   private String name = null;
@@ -35,9 +35,6 @@ public class PipelineParameter {
 
   @SerializedName("isReturnedValue")
   private Boolean isReturnedValue = null;
-  
-  @SerializedName("defaultValue")
-  private Object defaultValue = null;
 
   @SerializedName("description")
   private String description = null;
@@ -112,24 +109,6 @@ public class PipelineParameter {
 
   public void setIsReturnedValue(Boolean isReturnedValue) {
     this.isReturnedValue = isReturnedValue;
-  }
-
-  public PipelineParameter defaultValue(Object defaultValue) {
-    this.defaultValue = defaultValue;
-    return this;
-  }
-  
-   /**
-   * Get defaultValue
-   * @return defaultValue
-  **/
-  @ApiModelProperty(example = "null", value = "")
-  public Object getDefaultValue() {
-    return defaultValue;
-  }
-
-  public void setDefaultValue(Object defaultValue) {
-    this.defaultValue = defaultValue;
   }
 
   public PipelineParameter description(String description) {

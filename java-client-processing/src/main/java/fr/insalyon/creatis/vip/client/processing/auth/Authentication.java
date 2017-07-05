@@ -11,9 +11,9 @@
  */
 
 
-package fr.insalyon.creatis.vip.java_client_processing.auth;
+package fr.insalyon.creatis.vip.client.processing.auth;
 
-import fr.insalyon.creatis.vip.java_client_processing.Pair;
+import fr.insalyon.creatis.vip.client.processing.Pair;
 
 import java.util.Map;
 import java.util.List;

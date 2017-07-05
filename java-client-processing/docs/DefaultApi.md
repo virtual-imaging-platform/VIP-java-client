@@ -31,11 +31,11 @@ Delete an execution. This will kill the underlying processes (if possible) and f
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_processing.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-//import fr.insalyon.creatis.vip.java_client_processing.Configuration;
-//import fr.insalyon.creatis.vip.java_client_processing.auth.*;
-//import fr.insalyon.creatis.vip.java_client_processing.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.processing.ApiClient;
+//import fr.insalyon.creatis.vip.client.processing.ApiException;
+//import fr.insalyon.creatis.vip.client.processing.Configuration;
+//import fr.insalyon.creatis.vip.client.processing.auth.*;
+//import fr.insalyon.creatis.vip.client.processing.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -87,11 +87,11 @@ get information about an execution
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_processing.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-//import fr.insalyon.creatis.vip.java_client_processing.Configuration;
-//import fr.insalyon.creatis.vip.java_client_processing.auth.*;
-//import fr.insalyon.creatis.vip.java_client_processing.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.processing.ApiClient;
+//import fr.insalyon.creatis.vip.client.processing.ApiException;
+//import fr.insalyon.creatis.vip.client.processing.Configuration;
+//import fr.insalyon.creatis.vip.client.processing.auth.*;
+//import fr.insalyon.creatis.vip.client.processing.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -142,11 +142,11 @@ get the result files of the execution
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_processing.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-//import fr.insalyon.creatis.vip.java_client_processing.Configuration;
-//import fr.insalyon.creatis.vip.java_client_processing.auth.*;
-//import fr.insalyon.creatis.vip.java_client_processing.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.processing.ApiClient;
+//import fr.insalyon.creatis.vip.client.processing.ApiException;
+//import fr.insalyon.creatis.vip.client.processing.Configuration;
+//import fr.insalyon.creatis.vip.client.processing.auth.*;
+//import fr.insalyon.creatis.vip.client.processing.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -199,11 +199,11 @@ Show the definition of a given pipeline
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_processing.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-//import fr.insalyon.creatis.vip.java_client_processing.Configuration;
-//import fr.insalyon.creatis.vip.java_client_processing.auth.*;
-//import fr.insalyon.creatis.vip.java_client_processing.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.processing.ApiClient;
+//import fr.insalyon.creatis.vip.client.processing.ApiException;
+//import fr.insalyon.creatis.vip.client.processing.Configuration;
+//import fr.insalyon.creatis.vip.client.processing.auth.*;
+//import fr.insalyon.creatis.vip.client.processing.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -254,8 +254,8 @@ Returns information about the platform. https must be supported in the list of t
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-//import fr.insalyon.creatis.vip.java_client_processing.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.processing.ApiException;
+//import fr.insalyon.creatis.vip.client.processing.api.DefaultApi;
 
 
 DefaultApi apiInstance = new DefaultApi();
@@ -295,11 +295,11 @@ get stderr of an execution
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_processing.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-//import fr.insalyon.creatis.vip.java_client_processing.Configuration;
-//import fr.insalyon.creatis.vip.java_client_processing.auth.*;
-//import fr.insalyon.creatis.vip.java_client_processing.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.processing.ApiClient;
+//import fr.insalyon.creatis.vip.client.processing.ApiException;
+//import fr.insalyon.creatis.vip.client.processing.Configuration;
+//import fr.insalyon.creatis.vip.client.processing.auth.*;
+//import fr.insalyon.creatis.vip.client.processing.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -350,11 +350,11 @@ get stdout of an execution
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_processing.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-//import fr.insalyon.creatis.vip.java_client_processing.Configuration;
-//import fr.insalyon.creatis.vip.java_client_processing.auth.*;
-//import fr.insalyon.creatis.vip.java_client_processing.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.processing.ApiClient;
+//import fr.insalyon.creatis.vip.client.processing.ApiException;
+//import fr.insalyon.creatis.vip.client.processing.Configuration;
+//import fr.insalyon.creatis.vip.client.processing.auth.*;
+//import fr.insalyon.creatis.vip.client.processing.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -405,11 +405,11 @@ Initializes an execution and start it. The successful response must contain the 
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_processing.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-//import fr.insalyon.creatis.vip.java_client_processing.Configuration;
-//import fr.insalyon.creatis.vip.java_client_processing.auth.*;
-//import fr.insalyon.creatis.vip.java_client_processing.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.processing.ApiClient;
+//import fr.insalyon.creatis.vip.client.processing.ApiException;
+//import fr.insalyon.creatis.vip.client.processing.Configuration;
+//import fr.insalyon.creatis.vip.client.processing.auth.*;
+//import fr.insalyon.creatis.vip.client.processing.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -460,11 +460,11 @@ Initializes an execution. Does not start it. The successful response must contai
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_processing.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-//import fr.insalyon.creatis.vip.java_client_processing.Configuration;
-//import fr.insalyon.creatis.vip.java_client_processing.auth.*;
-//import fr.insalyon.creatis.vip.java_client_processing.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.processing.ApiClient;
+//import fr.insalyon.creatis.vip.client.processing.ApiException;
+//import fr.insalyon.creatis.vip.client.processing.Configuration;
+//import fr.insalyon.creatis.vip.client.processing.auth.*;
+//import fr.insalyon.creatis.vip.client.processing.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -515,11 +515,11 @@ kill an execution
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_processing.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-//import fr.insalyon.creatis.vip.java_client_processing.Configuration;
-//import fr.insalyon.creatis.vip.java_client_processing.auth.*;
-//import fr.insalyon.creatis.vip.java_client_processing.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.processing.ApiClient;
+//import fr.insalyon.creatis.vip.client.processing.ApiException;
+//import fr.insalyon.creatis.vip.client.processing.Configuration;
+//import fr.insalyon.creatis.vip.client.processing.auth.*;
+//import fr.insalyon.creatis.vip.client.processing.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -569,11 +569,11 @@ list all execution Ids in the platform which are ordered in decreasing submissio
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_processing.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-//import fr.insalyon.creatis.vip.java_client_processing.Configuration;
-//import fr.insalyon.creatis.vip.java_client_processing.auth.*;
-//import fr.insalyon.creatis.vip.java_client_processing.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.processing.ApiClient;
+//import fr.insalyon.creatis.vip.client.processing.ApiException;
+//import fr.insalyon.creatis.vip.client.processing.Configuration;
+//import fr.insalyon.creatis.vip.client.processing.auth.*;
+//import fr.insalyon.creatis.vip.client.processing.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -620,11 +620,11 @@ All the pipelines that the user can execute must be returned. It is up to the pl
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_processing.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-//import fr.insalyon.creatis.vip.java_client_processing.Configuration;
-//import fr.insalyon.creatis.vip.java_client_processing.auth.*;
-//import fr.insalyon.creatis.vip.java_client_processing.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.processing.ApiClient;
+//import fr.insalyon.creatis.vip.client.processing.ApiException;
+//import fr.insalyon.creatis.vip.client.processing.Configuration;
+//import fr.insalyon.creatis.vip.client.processing.auth.*;
+//import fr.insalyon.creatis.vip.client.processing.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -675,11 +675,11 @@ play an execution
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_processing.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-//import fr.insalyon.creatis.vip.java_client_processing.Configuration;
-//import fr.insalyon.creatis.vip.java_client_processing.auth.*;
-//import fr.insalyon.creatis.vip.java_client_processing.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.processing.ApiClient;
+//import fr.insalyon.creatis.vip.client.processing.ApiException;
+//import fr.insalyon.creatis.vip.client.processing.Configuration;
+//import fr.insalyon.creatis.vip.client.processing.auth.*;
+//import fr.insalyon.creatis.vip.client.processing.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -729,11 +729,11 @@ Modify an execution. Only the name and the timeout of the execution can be modif
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_processing.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_processing.ApiException;
-//import fr.insalyon.creatis.vip.java_client_processing.Configuration;
-//import fr.insalyon.creatis.vip.java_client_processing.auth.*;
-//import fr.insalyon.creatis.vip.java_client_processing.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.processing.ApiClient;
+//import fr.insalyon.creatis.vip.client.processing.ApiException;
+//import fr.insalyon.creatis.vip.client.processing.Configuration;
+//import fr.insalyon.creatis.vip.client.processing.auth.*;
+//import fr.insalyon.creatis.vip.client.processing.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 

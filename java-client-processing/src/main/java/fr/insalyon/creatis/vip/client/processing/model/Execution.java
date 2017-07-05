@@ -11,7 +11,7 @@
  */
 
 
-package fr.insalyon.creatis.vip.java_client_processing.model;
+package fr.insalyon.creatis.vip.client.processing.model;
 
 import java.util.Objects;
 import com.google.gson.annotations.SerializedName;
@@ -24,7 +24,7 @@ import java.util.Map;
 /**
  * Execution
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-06-21T16:02:35.739+02:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-07-05T11:29:38.958+02:00")
 public class Execution {
   @SerializedName("identifier")
   private String identifier = null;
@@ -82,7 +82,7 @@ public class Execution {
   private StatusEnum status = null;
 
   @SerializedName("inputValues")
-  private Map<String, Object> inputValues = new HashMap<String, Object>();
+  private Object inputValues = null;
 
   @SerializedName("returnedFiles")
   private Map<String, List<String>> returnedFiles = new HashMap<String, List<String>>();
@@ -171,7 +171,7 @@ public class Execution {
     return status;
   }
 
-  public Execution inputValues(Map<String, Object> inputValues) {
+  public Execution inputValues(Object inputValues) {
     this.inputValues = inputValues;
     return this;
   }
@@ -181,11 +181,11 @@ public class Execution {
    * @return inputValues
   **/
   @ApiModelProperty(example = "null", required = true, value = "Represents the input as a key/value object. The types should respect the parameters of the pipeline used for the execution.")
-  public Map<String, Object> getInputValues() {
+  public Object getInputValues() {
     return inputValues;
   }
 
-  public void setInputValues(Map<String, Object> inputValues) {
+  public void setInputValues(Object inputValues) {
     this.inputValues = inputValues;
   }
 
