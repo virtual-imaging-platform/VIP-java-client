@@ -24,11 +24,11 @@ create the specified directory in user space
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_data.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_data.ApiException;
-//import fr.insalyon.creatis.vip.java_client_data.Configuration;
-//import fr.insalyon.creatis.vip.java_client_data.auth.*;
-//import fr.insalyon.creatis.vip.java_client_data.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.data.ApiClient;
+//import fr.insalyon.creatis.vip.client.data.ApiException;
+//import fr.insalyon.creatis.vip.client.data.Configuration;
+//import fr.insalyon.creatis.vip.client.data.auth.*;
+//import fr.insalyon.creatis.vip.client.data.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -79,11 +79,11 @@ delete the specified path
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_data.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_data.ApiException;
-//import fr.insalyon.creatis.vip.java_client_data.Configuration;
-//import fr.insalyon.creatis.vip.java_client_data.auth.*;
-//import fr.insalyon.creatis.vip.java_client_data.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.data.ApiClient;
+//import fr.insalyon.creatis.vip.client.data.ApiException;
+//import fr.insalyon.creatis.vip.client.data.Configuration;
+//import fr.insalyon.creatis.vip.client.data.auth.*;
+//import fr.insalyon.creatis.vip.client.data.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -133,11 +133,11 @@ indicates if the specified path exists or not
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_data.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_data.ApiException;
-//import fr.insalyon.creatis.vip.java_client_data.Configuration;
-//import fr.insalyon.creatis.vip.java_client_data.auth.*;
-//import fr.insalyon.creatis.vip.java_client_data.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.data.ApiClient;
+//import fr.insalyon.creatis.vip.client.data.ApiException;
+//import fr.insalyon.creatis.vip.client.data.Configuration;
+//import fr.insalyon.creatis.vip.client.data.auth.*;
+//import fr.insalyon.creatis.vip.client.data.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -188,11 +188,11 @@ returns the asked file
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_data.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_data.ApiException;
-//import fr.insalyon.creatis.vip.java_client_data.Configuration;
-//import fr.insalyon.creatis.vip.java_client_data.auth.*;
-//import fr.insalyon.creatis.vip.java_client_data.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.data.ApiClient;
+//import fr.insalyon.creatis.vip.client.data.ApiException;
+//import fr.insalyon.creatis.vip.client.data.Configuration;
+//import fr.insalyon.creatis.vip.client.data.auth.*;
+//import fr.insalyon.creatis.vip.client.data.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -243,11 +243,11 @@ get the specified path if it exists
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_data.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_data.ApiException;
-//import fr.insalyon.creatis.vip.java_client_data.Configuration;
-//import fr.insalyon.creatis.vip.java_client_data.auth.*;
-//import fr.insalyon.creatis.vip.java_client_data.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.data.ApiClient;
+//import fr.insalyon.creatis.vip.client.data.ApiException;
+//import fr.insalyon.creatis.vip.client.data.Configuration;
+//import fr.insalyon.creatis.vip.client.data.auth.*;
+//import fr.insalyon.creatis.vip.client.data.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -298,11 +298,11 @@ returns all files and directory contained in the specified path
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_data.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_data.ApiException;
-//import fr.insalyon.creatis.vip.java_client_data.Configuration;
-//import fr.insalyon.creatis.vip.java_client_data.auth.*;
-//import fr.insalyon.creatis.vip.java_client_data.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.data.ApiClient;
+//import fr.insalyon.creatis.vip.client.data.ApiException;
+//import fr.insalyon.creatis.vip.client.data.Configuration;
+//import fr.insalyon.creatis.vip.client.data.auth.*;
+//import fr.insalyon.creatis.vip.client.data.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -353,11 +353,11 @@ returns the uploaded path
 ### Example
 ```java
 // Import classes:
-//import fr.insalyon.creatis.vip.java_client_data.ApiClient;
-//import fr.insalyon.creatis.vip.java_client_data.ApiException;
-//import fr.insalyon.creatis.vip.java_client_data.Configuration;
-//import fr.insalyon.creatis.vip.java_client_data.auth.*;
-//import fr.insalyon.creatis.vip.java_client_data.api.DefaultApi;
+//import fr.insalyon.creatis.vip.client.data.ApiClient;
+//import fr.insalyon.creatis.vip.client.data.ApiException;
+//import fr.insalyon.creatis.vip.client.data.Configuration;
+//import fr.insalyon.creatis.vip.client.data.auth.*;
+//import fr.insalyon.creatis.vip.client.data.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 

@@ -58,10 +58,10 @@ Please follow the [installation](#installation) instruction and execute the foll
 
 ```java
 
-import fr.insalyon.creatis.vip.java_client_data.*;
-import fr.insalyon.creatis.vip.java_client_data.auth.*;
-import fr.insalyon.creatis.vip.java_client_data.model.*;
-import fr.insalyon.creatis.vip.java_client_data.api.DefaultApi;
+import fr.insalyon.creatis.vip.client.data.*;
+import fr.insalyon.creatis.vip.client.data.auth.*;
+import fr.insalyon.creatis.vip.client.data.model.*;
+import fr.insalyon.creatis.vip.client.data.api.DefaultApi;
 
 import java.io.File;
 import java.util.*;
