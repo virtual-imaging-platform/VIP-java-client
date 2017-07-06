@@ -35,6 +35,9 @@ public class PipelineParameter {
 
   @SerializedName("isReturnedValue")
   private Boolean isReturnedValue = null;
+  
+  @SerializedName("defaultValue")
+  private Object defaultValue = null;
 
   @SerializedName("description")
   private String description = null;
@@ -111,10 +114,28 @@ public class PipelineParameter {
     this.isReturnedValue = isReturnedValue;
   }
 
-  public PipelineParameter description(String description) {
-    this.description = description;
+  public PipelineParameter defaultValue(Object defaultValue) {
+    this.defaultValue = defaultValue;
     return this;
   }
+  
+  /**
+  * Get defaultValue
+  * @return defaultValue
+ **/
+ @ApiModelProperty(example = "null", value = "")
+ public Object getDefaultValue() {
+   return defaultValue;
+ }
+
+ public void setDefaultValue(Object defaultValue) {
+   this.defaultValue = defaultValue;
+ }
+
+ public PipelineParameter description(String description) {
+   this.description = description;
+   return this;
+ }
 
    /**
    * Get description

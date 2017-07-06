@@ -82,7 +82,7 @@ public class Execution {
   private StatusEnum status = null;
 
   @SerializedName("inputValues")
-  private Object inputValues = null;
+  private Map<String, Object> inputValues = new HashMap<String, Object>();
 
   @SerializedName("returnedFiles")
   private Map<String, List<String>> returnedFiles = new HashMap<String, List<String>>();
@@ -171,7 +171,7 @@ public class Execution {
     return status;
   }
 
-  public Execution inputValues(Object inputValues) {
+  public Execution inputValues(Map<String, Object> inputValues) {
     this.inputValues = inputValues;
     return this;
   }
@@ -181,11 +181,11 @@ public class Execution {
    * @return inputValues
   **/
   @ApiModelProperty(example = "null", required = true, value = "Represents the input as a key/value object. The types should respect the parameters of the pipeline used for the execution.")
-  public Object getInputValues() {
+  public Map<String, Object> getInputValues() {
     return inputValues;
   }
 
-  public void setInputValues(Object inputValues) {
+  public void setInputValues(Map<String, Object> inputValues) {
     this.inputValues = inputValues;
   }
 
