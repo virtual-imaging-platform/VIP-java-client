@@ -4,6 +4,6 @@
     "apiPackage":"fr.insalyon.creatis.vip.client.data.api",
     "groupId":"fr.insalyon.creatis.vip",
     "artifactId":"java-client-data-extension",
-    "artifactVersion":"0.3",
+    "artifactVersion":"0.4",
     "library":"okhttp-gson"
 }
